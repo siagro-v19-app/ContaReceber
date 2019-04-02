@@ -111,7 +111,7 @@ sap.ui.define([
 		
 		onSalvar: function(){
 			if (this._checarCampos(this.getView())) {
-				MessageBox.information("Preencha todos os campos obrigatórios!");
+				MessageBox.warning("Preencha todos os campos obrigatórios!");
 				return;
 			}
 			
@@ -164,7 +164,7 @@ sap.ui.define([
 					uri: "/PlanoContas('" + oDados.ContaContabil + "')"
 				}
 			};
-			debugger;
+
 			return oDados;
 		},
 		
