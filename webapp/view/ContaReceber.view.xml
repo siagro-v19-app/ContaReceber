@@ -12,18 +12,6 @@
 			<Page showHeader="false" class="sapUiContentPadding" enableScrolling="false">
 				<content>
 					<t:Table id="tableContaReceber"
-						rows="{
-							path: '/ContaRecebers',
-							sorter: {
-								path: 'Titulo'
-							},
-							parameters: {
-								expand: 'CentroCustoDetails,
-								TipoTituloDetails,
-								ParceiroNegocioDetails,
-								PlanoContaDetails'
-							}
-						}"
 						selectionMode="Single"
 						selectionBehavior="Row"
 						class="sapUiSizeCondensed"
